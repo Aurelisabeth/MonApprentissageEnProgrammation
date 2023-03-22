@@ -1,0 +1,42 @@
+.plat {
+  height: 50px;
+  width: 100px;
+}
+
+.rond {
+  height: 100px;
+  width: 100px;
+}
+
+.grand {
+  width: 300px;
+  background-color: red;
+}
+
+.moyen {
+  width: 150px;
+  background-color: pink;
+}
+
+.coupon {
+  border: solid;
+}
+
+.titre {
+  border: solid 10px;
+}
+
+.actu {
+  border: solid 10px red
+}
+
+.cinema {
+  border-radius: 10px;
+  background-color: lightBlue;
+  border: solid;
+}
+
+.aile {
+  border-radius: 100px;
+  border: solid 5px black;
+}
