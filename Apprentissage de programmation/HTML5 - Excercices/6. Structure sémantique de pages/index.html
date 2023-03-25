@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chapitre : Structure sémantique de page</title>
+  </head>
+  <body>
+    <!--Les éléments sémantiques permettent de définir la structure attendue d'une page web.-->
+    <!--Par exemple : <<header></header>, <nav></nav>, <section></section>, <section></section>, <footer></footer>-->
+    <h1>1. De l'alternative sémantique à la balise "div".</h1>
+    <!--
+    <div class="">
+      <h2>Solutions éducatives.</h2>
+    </div>
+    <div class="">
+      <h3>Contactez-nous.</h3>
+      <p>Courriel : educationsolutions@example.com</p>
+    </div>
+    <div class="">
+      <h3>Réseaux sociaux.</h3>
+      <a href="#"><img src="https://mimo.app/i/twitter.png"></a>
+      <a href="#"><img src="https://mimo.app/i/linkedin.png"></a>
+    </div>
+
+    <br><hr><br>
+    -->
+
+    <!--On utilise un élément <header></header> pour définir le contenu en haut de la page.
+    Par exemple le nom d'une société.-->
+    <!--
+    <header>
+      <h2>Solutions éducatives.</h2>
+    </header>
+    <div class="">
+      <h3>Contactez-nous.</h3>
+      <p>Courriel : educationsolutions@example.com</p>
+    </div>
+    <div class="">
+      <h3>Réseaux sociaux.</h3>
+      <a href="#"><img src="https://mimo.app/i/twitter.png"></a>
+      <a href="#"><img src="https://mimo.app/i/linkedin.png"></a>
+    </div>
+
+    <br><hr><br>
+    -->
+
+    <!--On utilise un élément <footer></footer> pour définir le contenu en bas de la page.
+    Par exemple les réseaux sociaux.-->
+    <header>
+      <h2>Solutions éducatives.</h2>
+    </header>
+    <div class="">
+      <h3>Contactez-nous.</h3>
+      <p>Courriel : educationsolutions@example.com</p>
+    </div>
+    <footer><h3>Réseaux sociaux.</h3>
+      <div class="">
+        <a href="#"><img src="https://mimo.app/i/twitter.png"></a>
+        <a href="#"><img src="https://mimo.app/i/linkedin.png"></a>
+      </div>
+    </footer>
+
+    <br><hr><br>
+
+    <h1>2. Les conteneurs sémantiques.</h1>
+    <!--Contrairement au <header></header> et au <footer></footer>,
+    qui peuvent contenir des éléments semblables d'une page à l'autre,
+    <main></main> définit le contenu propre à la page web.-->
+
+    <!--On utilise l'élément <section></section> pour définir un groupe de contenu avec un thème unique,
+    tel que les informations sur cette page-->
+
+    <!--On utilise <nav></nav> pour définir un groupe d'éléments qui permettent aux utilisateurs de sortir de la page actuelle,
+    comme la liste des réseaux sociaux ci-dessous.-->
+    <header>
+      <h2>Solutions éducatives.</h2>
+    </header>
+    <main>
+      <h3>Contactez-nous.</h3>
+      <p>Courriel : educationsolutions@example.com</p>
+    </main>
+    <footer><h3>Réseaux sociaux.</h3>
+      <nav>
+          <a href="#"><img src="https://mimo.app/i/twitter.png"></a>
+          <a href="#"><img src="https://mimo.app/i/linkedin.png"></a>
+      </nav>
+    </footer>
+  </body>
+</html>
