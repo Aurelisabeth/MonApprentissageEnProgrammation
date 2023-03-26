@@ -1,0 +1,63 @@
+.contraste h1 {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+body {
+  text-align: center;
+  font-family: Courier New;
+  color: #000000;
+  background-color: lightSlayGray;
+}
+
+/**/
+
+button {
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.rouge {
+  background-color: #FF0000;
+}
+
+.vert {
+  background-color: #00FF00;
+}
+
+.bleu {
+  background-color: #0000FF;
+}
+
+/**/
+
+.gradient {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FAF5F1;
+}
+
+
+.gradient1 {
+  background: linear-gradient(to right, #EE9CA7, #FFDDE1);
+}
+
+.gradient2 {
+  background: linear-gradient(to right, #2193B0, #6DD5ED);
+}
+
+.gradient3 {
+  background: linear-gradient(90deg, #00416A, #E4E5E6);
+}
+
+.gradient4 {
+  background: linear-gradient(90deg, #334D50, #CBCAA5);
+}
+
+h1 {
+  border-radius: 20px;
+  border: solid 4px #FFFFFF;
+  padding: 20px;
+}
