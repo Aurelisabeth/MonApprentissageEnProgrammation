@@ -1,0 +1,6 @@
+/*L'héritage est lorsque l'élément "Enfant" (<p></p>) reçoit une propriété de son "Parent" (<div></div>).*/
+div {
+  border: solid 3px lightGray;
+  color: brown;
+  font-weight: bold;
+}
