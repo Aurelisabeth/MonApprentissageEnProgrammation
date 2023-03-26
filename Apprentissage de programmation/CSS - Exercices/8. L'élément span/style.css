@@ -1,0 +1,18 @@
+span {
+  color: LightSteelBlue;
+}
+
+.sachet {
+  color: BurlyWood;
+}
+
+body {
+  background-color: LightSlateGray;
+  color: whiteSmoke;
+}
+
+hr {
+  width: 300px;
+  height: 2px;
+  background: whiteSmoke;
+}
