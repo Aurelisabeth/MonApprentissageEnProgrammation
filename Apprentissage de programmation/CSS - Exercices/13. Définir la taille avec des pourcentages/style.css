@@ -1,0 +1,13 @@
+/*Il est possible de comparer un élément par rapport au parent à l'aide d'un pourcentge.*/
+.magazine img {
+  width: 50%;
+}
+
+.titre-de-magazine h3 {
+  background-color: aliceBlue;
+}
+
+div {
+  width: 250px;
+  border: solid 2px lightSkyBlue;
+}
