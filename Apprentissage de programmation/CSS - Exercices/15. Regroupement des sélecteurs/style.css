@@ -1,0 +1,28 @@
+.classique p {
+  font-family: Playfair Display;
+}
+
+.classique button {
+  font-family: Playfair Display;
+}
+
+.classique h2 {
+  font-family: Playfair Display;
+}
+
+.offert {
+  font-size: 30px;
+}
+
+/*ou*/
+
+/*On utilise une sélecteur de regroupement afin de regrouper différents éléments sous une seule règle.
+Soit:
+.raccourci p, h2, button {
+  font-family: Arial;
+}
+
+ou */
+
+.raccourci p, h2, .offert {
+  font-family: Arial;
