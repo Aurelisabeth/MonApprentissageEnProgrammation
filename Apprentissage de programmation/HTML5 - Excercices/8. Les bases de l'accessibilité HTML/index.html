@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapitre : Les bases de l'accessibilité</title>
+  </head>
+    <body>
+      <h1><U>1. Introduction à l’accessibilité.</U></h1>
+      <!--L'accessibilité consiste à rendre un site web accessible au plus grand nombre.-->
+      <!--Certains ont besoin de technologie d'assistance qui necessite un support de code pour accéder au contenu.-->
+      <!--Il permet également aux utilisateurs qui utilisent divers appareils ou une connexion internet lente.-->
+      <!--Les balises <div></div> et <span></span> sont des conteneurs (containers) mais ils ne donnent pas de contexte.-->
+      <!--Les balises <h1></h1>, <ul></ul>, <ol></ol>, <button></button>, <a></a>, <img> et <body></body> le sont.-->
+      <ul>
+        <li>Bananes</li>
+        <li>Pommes</li>
+        <li>Poire</li>
+      </ul>
+      <hr>
+      <div class="">
+        Cliquer ici !
+      </div>
+      <hr>
+      <!--L'ordre HTML est important.-->
+      <!--Sauter des rangées de titres peut être déroutant, alors on devrait toujours les séquencer.-->
+      <h1>Bonne nouvelle !</h1>
+      <h2>Un nouveau drapeau pour la Terre a été conçu.</h2>
+      <h3>Jane Wish 2020</h3>
+      <p>Après des recherches approfondies, la population sur Terre a estimé que l’appartenance à des nations n’a plus de sens et tous les pays seront en mesure de montrer ce drapeau comme un signe d’unité autour du globe.</p>
+
+      <br><hr><br>
+
+      <h1><U>2. Attributs d’accessibilité HTML.</U></h1>
+
+      <header>
+        <h2>Notre site web fait peau neuve !</h2>
+      </header>
+      <main>
+        <p>Aider nous à concretiser notre projet en cliquant <a href="getmimo.com">ici</a></p>
+        <p>Vous pouvez aussi vous inscire à notre newsletter</p>
+        <button type="button" name="button">S'inscrire</button>
+      </main>
+      <hr>
+      <!--Utiliser des appels d'action descriptifs pour les boutons et les liens.-->
+      <p>Voici quelques informations sur le produit, mais vous pouvez trouver plus d’informations en appuyant sur le bouton suivant.</p>
+      <button type="button" name="button">Cliquez pour plus d’informations</button>
+      <br><br>
+      <p>Vous pouvez également visiter notre site Web pour plus de produits :</p>
+      <a href="#">Visitez le site Web du fournisseur.</a>
+      <hr>
+      <!--Les textes alternatifs (alt) fournissent des descriptions utiles lorsque l'image ne charge pas.-->
+      <head>
+        <title>Les animaux de compagnie</title>
+      </head>
+      <header>
+        <h1>Les animaux de compagnie</h1>
+      </header>
+      <main>
+        <h2>Les animaux de compagnie le plus courants</h2>
+        <h3>Le chat</h3>
+        <img src="https://mimo.app/i/bubu.png" alt="Un chat dans un sac à dos avec hublot">
+      </main>
+      <hr>
+      <!--L'attribut "lang" definit la langue de la page web.-->
+      <!DOCTYPE html>
+      <html lang="fr">
+        <head>
+          <title></title>
+        </head>
+        <body>
+          <main>
+            <p>La valeur de <em>lang</em> est "fr" parce que le texte est en français.</p>
+          </main>
+        </body>
+      </html>
+
+    </body>
+</html>
