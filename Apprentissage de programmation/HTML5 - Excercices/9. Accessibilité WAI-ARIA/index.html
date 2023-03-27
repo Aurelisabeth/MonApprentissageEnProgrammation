@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapitre : Accessibilité WAI-ARIA</title>
+  </head>
+  <body>
+    <h1><U>1. L'attribut "role".</U></h1>
+
+    <!--Le WAI (Web Accessibility Initiative) - ARIA (Accessible Rich Internet Applications) sont des normes d'accessiilité.-->
+    <!--La sémantique est une norme importante. Elle va permet de redre accessible les éléments génériques tels que la balise <div></div>.-->
+    <div role="">Soumettre</div>
+    <hr>
+    <!--L'attribut "role" donne un sens aux technologies d'assistance sans changer le contenu.-->
+    <div role="banner">
+      <img src="https://mimo.app/i/homeflix.png" alt="Homeflix logo">
+      <h1>Homeflix</h1>
+      <h2>À regarder où vous voulez, quand vous voulez.</h2>
+    </div>
+    <hr>
+    <!--L'attribut "role" aide aussi à identifier des blocs qui doivent être considérés comme un seul bloc.
+    Par exemple : Si l'on souhaite que plusieurs images soient identifiés comme une seule image, on assigne le role "img" dans le conteneur.-->
+    <div role="img">
+      <img src="image1.png" alt="">
+      <img src="image2.png" alt="">
+    </div>
+    <hr>
+    <!--Le role "comment" agit sur certains contenus.
+    Par exemple : On assigne le role "comment" dans la balise <div></div> pour que l'opinion de Chris soit un commentaire.-->
+    <div role="comment">
+      <h3>Chris a dit : </h3>
+      <p>Je pense que le dernier commentaire etait mieux écrit.</p>
+      <p>21 Mars 2019 à 11H30</p>
+    </div>
+    <hr>
+    <!--Le role "contentifo" indique qu'il y a un pied de page à la fin de la page.-->
+    <!--Il contient des renseignement sur les droits d'auteur, les contacts ou le protection de renseignements personnels.-->
+    <div role="contentinfo">
+      ©Tous droits réservés.
+    </div>
+    <hr>
+    <!--Le role "alert" avertit les utilisateurs sur les évènements ou les modifications de contenu.-->
+    <div role="alert">
+      Votre session va s'expirer dans 60 secondes.
+    </div>
+
+    <br><hr><br>
+
+    <h1><U>2. La norme ARIA.</U></h1>
+
+    <!--Parfois, on intègre du contenu visuel attrayant qui pourrait distraire les lecteurs décrans.
+    Dans ce cas, on peut utiliser un attribut de la norme ARIA : "aria-hidden".-->
+    <!--Il cachera le contenu aux technologies d'assistance tout en restant visible sur la page web.-->
+    <p arira-hidden>Cet élément doit être caché des lecteurs d'écrans.</p>
+    <hr>
+    <!--Il ne faut pas utiliser des éléments intéractifs comme des boutons ou des liens.-->
+    <!--Les utilisateurs ne pourront pas intéragir avec eux.-->
+    <div aria-hidden>
+        C’est un carrousel décoratif et distrayant qui devrait être caché pour les lecteurs d’écran.
+    </div>
+    <hr>
+    <!--Un autre exemple : le role "banner" interfère avec l'objectif réel de "ul" qui est d'afficher une liste.
+    -> On ne doit pas utiliser d'attribut ARIA.-->
+    <ul>
+      <li><a href="#">Première option</a></li>
+      <li><a href="#">Deuxième option</a></li>
+    </ul>
+  </body>
+</html>
