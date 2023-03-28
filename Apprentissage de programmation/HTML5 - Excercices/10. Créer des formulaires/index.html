@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapitre : Créer des formulaires.</title>
+  </head>
+  <body>
+    <h1><U>1. Les formulaires</U></h1>
+    <!--Les formulaires permettent de recueillir des données entrées par l'utilisateur.-->
+    <!--La structure du formulaire se compose d'un élément <form></form> constitué des divers <input> et de la balise <button type="submit"></button>.-->
+    <form class="" action="index.html" method="post">
+      Nom d'utilisateur : <input type="text"><br>
+      Mot de passe : <input type="password"><br>
+      <button>Se connecter</button>
+    </form>
+    <hr>
+    <!--On utilise l'élément <fieldset></fieldset> pour regrouper les données de saisie associées.-->
+    <!--Un <fieldset></fieldset> affichera une bordure autour des éléments associés.-->
+    <h3>Enregistrer un compte</h3>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        Nom : <input type="text"><br>
+        Email : <input type="email"><br>
+        Téléphone : <input type="tel">
+      </fieldset>
+      <fieldset>
+        Nom d'utilisateur : <input type="text"><br>
+        Mot de passe : <input type="password"><br>
+        <button>Valider</button>
+      </fieldset>
+    </form>
+    <hr>
+    <!--On place un élément <legend></legend> à l'intérieur de l'élément <fieldset></fieldset> pour légender tout le domaine.-->
+    <h3>Enregistrer un compte</h3>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        Nom : <input type="text"><br>
+        Email : <input type="email"><br>
+        Téléphone : <input type="tel">
+      </fieldset>
+      <fieldset>
+        <legend>Informations de connection</legend>
+        Nom d'utilisateur : <input type="text"><br>
+        Mot de passe : <input type="password"><br>
+        <button>Valider</button>
+      </fieldset>
+    </form>
+
+    <br><hr><br>
+
+    <h1><U>2. Le Textarea</U></h1>
+    <!--Les sites web prennent vie lorsque l'itulisateur peut envoyer, ajouter et partager des commentaires.-->
+    <h1>S'inscrire</h1>
+    <form class="" action="index.html" method="post">
+      <input type="text" name="" value="">
+    </form>
+    <hr>
+    <!--Lélément <input> ne peut être que sur une seule ligne.-->
+    <!--Pour en avoir plusieurs, on utlise l'élément <textarea></textarea>.-->
+    <h2>Laisser un commentaire.</h2>
+    <textarea></textarea>
+    <hr>
+    <!--Pour contrôler la taille de la zone de texte, on utilise l'attribut "rows" pour définir les lignes de texte et l'attribut "cols" pour le nombre de caractères.-->
+    <h2>Laisser un commentaire.</h2>
+    <textarea rows="3" cols="15"></textarea>
+  </body>
+</html>
