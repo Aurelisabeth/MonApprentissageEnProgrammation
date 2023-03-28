@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapitre : Les formulaires avec "label".</title>
+  </head>
+  <body>
+    <!--Dans les formulaires, les éléments <label></label> sont essentielles à la définition des entrées prévues. -->
+    <form class="" action="index.html" method="post">
+      <label>Nom : </label><input type="text"><br>
+      <label>Email : </label><input type="email"><br>
+      <button>S'abonner</button>
+    </form>
+    <hr>
+    <!--On ajoute du texte aux <label></label>afin d'aider les utilisateurs à savoir ce qu'ils doivent entrer.-->
+    <form class="" action="index.html" method="post">
+      <label>Nom : </label><input id="nom" type="text"><br>
+      <label>Email : </label><input id="nom" type="email"><br>
+      <button>S'abonner</button>
+    </form>
+    <hr>
+    <!--L'attribut "for" spécifie l'élément <input> vers lequel le <label></label> est lié.-->
+    <!--Sa valeur est la même que celle de "id" de l'élément <input>-->
+    <!--Les <label></label> facilitent également l'accessibilité.-->
+    <!--Les lecteurs d'écran liront audiblement les <label></label> comme "Nom :" ou "Email :" lorque l'élément <input> est finalisé.-->
+    <form class="" action="index.html" method="post">
+      <label for="nom">Nom : </label>
+      <input id="nom" type="text">
+      <br>
+      <label for="email">Email : </label>
+      <input id="email" type="email">
+      <br>
+      <button>S'abonner</button>
+    </form>
+    <hr>
+    <!--On peut utiliser les attributs "placeholder" dans les <input> pour fonctionner comme des <label></label>.-->
+    <!--Cependant, cela ne remplace pas entièrement les <label></label>.-->
+    <form class="" action="index.html" method="post">
+      <label for="nom">Nom : </label>
+      <input id="nom" type="text" placeholder="Nom">
+      <br>
+      <label for="email">Adresse mail : </label>
+      <input id="email" type="email" placeholder="Adresse mail">
+      <br>
+      <button>S'abonner</button>
+    </form>
+  </body>
+</html>
