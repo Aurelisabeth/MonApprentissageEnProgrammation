@@ -1,0 +1,28 @@
+/*1. La propriété "display" décide si un élément ou non apparaît sur la même ligne.*/
+/*2. height et width ne fonctionnent pas sur les éléments "inline".*/
+/*À la place, ils restent toujours à la taille du contenu qu'ils contiennent.*/
+/*3. Si plusieurs éléments en ligne ne rentrent pas dans la largeur de leur parent,
+les éléments vers la fin descendent vers le ligne suivante.*/
+.ex1 a {
+  display: inline;
+  width: 3000px;
+  text-decoration: none;
+  color: black;
+}
+
+/*4. Les éléments p, div et h fonctionnent différement.
+Ils s'affichent toujours sur des lignes distinctes*/
+/*5. En prenant toute la largeur du parent, les éléments "block" débutent toujours sur une nouvelle ligne.*/
+.ex2 p {
+  display: block;
+  border: solid 2px black;
+}
+/*6. Les éléments "button" et "img" ont "inline-block" comme valeur "display" par défaut.*/
+/*7. "inline-block" met les éléments sur la même ligne, tout en nous permettant de modifier leur taille.*/
+/*8. On peut définir une propriété "display" d'un élément à une valeur différente quand on veut modifier son apparence et son comportement sur une page.*/
+.ex3 button {
+  display: inline-block;
+  background-color: tan;
+  height: 50px;
+  width: 120px;
+}
