@@ -1,0 +1,31 @@
+.ex1 a {
+  background-color: #fdefdf;
+  position: absolute;
+}
+
+.ex2 a {
+  background-color: #fdefdf;
+  position: absolute;
+  right: 0px;
+}
+
+.ex3 a {
+  background-color: #fdefdf;
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+
+.a1 {
+  background-color: #fdefdf;
+  position: relative;
+}
+
+.a2 {
+  background-color: #fdefdf;
+  position: absolute;
+}
+
+.ex4 img {
+  width: 300px;
+}
