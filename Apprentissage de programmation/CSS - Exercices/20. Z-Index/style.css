@@ -1,0 +1,31 @@
+.ex1 img {
+  width: 300px;
+}
+
+h1 {
+  color: #FF6042;
+}
+
+.ex2 img {
+  width: 300px;
+  position: absolute;
+}
+
+.ex3 img {
+  width: 300px;
+  position: absolute;
+  z-index: 0,
+}
+
+.ex4 img {
+  width: 300px;
+  position: absolute;
+  z-index: -1,
+}
+
+.ex5 img {
+  position: absolute;
+}
+.logo {
+  z-index: 1;
+}
