@@ -1,0 +1,12 @@
+p {
+  background-color: #edbaa6;
+}
+
+strong {
+  position: relative;
+}
+
+.ex2 strong {
+  top: 30px;
+  left: 60px;
+}
