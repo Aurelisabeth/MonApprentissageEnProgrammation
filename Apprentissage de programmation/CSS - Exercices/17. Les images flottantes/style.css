@@ -1,0 +1,11 @@
+/*Ensuite sur l'image, on définit la propriété "float" à "left" ou "right".*/
+/*2. On a alors fixé la propriété "clear" de l'élément à la même valeur que l'élément "img".*/
+img {
+  width: 40%;
+  float: right;
+}
+
+/*
+.deuxième {
+  clear: right;
+}*/
