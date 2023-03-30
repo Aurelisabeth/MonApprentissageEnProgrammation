@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapitre : Comprendre Flexbox. </title>
+  </head>
+  <body>
+    <!--Flexbox permet de simplificier le code avec beaucoup de flexibilité.-->
+    <!--La taille des éléments s'adapte parfaitement aux différents écrans. -->
+
+    <h1><U>1. Qu'est-ce qu'un Flexbox ?</U></h1>
+    <!--Pour appliquer Flexbox,
+    il faut d'abord s'assurer que la page web contient un élément parent avec des éléments enfants.-->
+    <div class="">
+      <div class="">1</div>
+    </div>
+
+    <br><hr><br>
+
+    <!--L'élément parent est appelé "Flex container".-->
+    <!--les éléments enfants sont "Flex item".
+    Ce sont eux qui changeront leur taille pour s'adapter à leur conteneur.-->
+    <!--Pour appliquer "Flexbox" aux éléments à l'intérieur du conteneur,
+    On ajoute "display: flex;" au fichier CSS.-->
+    <div class="container1">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+
+    <h1><U>Le comportement d'un Flexbox par défaut.</U></h1>
+    <!--Par défaut, Flexbox tente d'insérer des éléments dans un conteneur sur une seule ligne.-->
+    <!--Les Flex item s'étirent automatiquement pour remplir la hauteur de leur conteneur.-->
+    <div class="container2">
+      <div class="item">Est-ce que les drones sont allés trop loin?</div>
+      <div class="item">Quel est le jeu que tout le monde attend cette année?</div>
+      <div class="item">Quels sont les meilleurs trucs que Bill Gates peut partager avec nous?</div>
+    </div>
+
+    <br><hr><br>
+
+    <div class="container3">
+      <div class="item3">C'est du contenu</div>
+      <div class="item3">C'est du contenu</div>
+      <div class="item3">C'est du contenu</div>
+      <div class="item3">C'est du contenu</div>
+    </div>
+
+    <br><hr><br>
+
+    <!--Parfois, les Flex items peuvent contenir un contenu très vaste et ne peuvent pas être fragmentés,
+    comme un long mot.-->
+    <h3>Mots en 15 lettres</h3>
+    <div class="container4">
+      <div class="item4">Alternativement</div>
+      <div class="item4">Accomplissement</div>
+    </div>
+
+    <br><hr><br>
+
+    <div class="container5">
+      <div class="item5">Div</div>
+      <button class="item5">Bouton</button>
+      <h3 class="item3">Titre</h3>
+    </div>
+  </body>
+</html>

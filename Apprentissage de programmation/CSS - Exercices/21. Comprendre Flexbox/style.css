@@ -1,0 +1,46 @@
+.container1 {
+  border: solid 2px #806868;
+  display: flex;
+}
+
+.item {
+  border: solid 2px #457081;
+  margin: 10px;
+}
+
+.container2 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 80px;
+}
+.container3 {
+  border: solid 2px #806868;
+  display: flex;
+}
+
+.item3 {
+  border: solid 2px #457081;
+  margin: 5px;
+}
+
+.container4 {
+  border: solid 2px #806868;
+  display: flex;
+  width: 250px;
+}
+
+.item4 {
+  border: solid 2px #457081;
+  margin: 10px;
+}
+
+.container5 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 100px;
+}
+
+.item5 {
+  border: solid 2px #457081;
+  margin: 10px;
+}
