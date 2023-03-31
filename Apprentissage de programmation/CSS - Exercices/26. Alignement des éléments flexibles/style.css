@@ -1,0 +1,39 @@
+.container1 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 100px;
+  align-items: stretch;
+}
+
+.item1 {
+  border: solid 3px #457081;
+}
+
+.container2 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.container3 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 100px;
+  align-items: flex-start;
+}
+
+.container4 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.container5 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
