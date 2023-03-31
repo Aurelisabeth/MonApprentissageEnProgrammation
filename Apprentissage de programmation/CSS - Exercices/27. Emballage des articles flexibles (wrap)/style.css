@@ -1,0 +1,34 @@
+.container1 {
+  border: solid 2px #806868;
+  display: flex;
+  width: 200px;
+  flex-wrap: nowrap;
+}
+
+.item1 {
+  border: solid 3px #457081;
+  padding: 10px;
+  margin: 2px;
+}
+
+.container2 {
+  border: solid 2px #806868;
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.container3 {
+  border: solid 2px #806868;
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap-reverse;
+}
+
+.container4 {
+  border: solid 2px #806868;
+  display: flex;
+  height: 200px;
+  flex-wrap: wrap-reverse;
+  flex-direction: column;
+}
