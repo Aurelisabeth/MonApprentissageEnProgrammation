@@ -1,0 +1,47 @@
+.un {
+  background-color: SkyBlue;
+
+}
+
+.deux {
+  background-color: Silver;
+}
+
+.container1 {
+  border: solid 1px Crimson;
+  display: flex;
+  width: 250px;
+}
+
+.item {
+  flex-basis: 200px;
+}
+
+/**/
+
+.un1 {
+  background-color: SkyBlue;
+  flex-shrink: 1;
+}
+
+/**/
+
+.un2 {
+  background-color: SkyBlue;
+  flex-shrink: 0;
+}
+
+.deux1 {
+  background-color: Silver;
+  flex-shrink: 1;
+}
+
+.deux2 {
+  background-color: Silver;
+  flex-shrink: 0;
+}
+
+.un3 {
+  background-color: SkyBlue;
+  flex-shrink: 2;
+}
