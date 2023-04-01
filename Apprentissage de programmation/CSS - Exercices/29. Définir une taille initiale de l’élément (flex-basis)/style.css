@@ -1,0 +1,44 @@
+.one {
+  background-color: orangeRed;
+  flex-basis: auto;
+}
+
+.two {
+  background-color: navy;
+}
+
+.item {
+  text-align: center;
+}
+
+.container1 {
+  border: solid 1px lightGray;
+  display: flex;
+}
+
+.one1 {
+  background-color: orangeRed;
+  flex-basis: 100px;
+}
+
+.one2 {
+  background-color: orangeRed;
+  flex-basis: 50%;
+}
+
+.container2 {
+  border: solid 1px lightGray;
+  display: flex;
+  flex-direction: column;
+}
+
+.one3 {
+  background-color: orangeRed;
+  flex-basis: 200px;
+}
+
+.container3 {
+  border: solid 1px lightGray;
+  display: flex;
+  width: 150px;
+}
