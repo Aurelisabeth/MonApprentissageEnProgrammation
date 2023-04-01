@@ -1,0 +1,82 @@
+.un {
+  background-color: orangeRed;
+  flex-grow: 0;
+}
+
+.deux {
+  background-color: navy;
+}
+
+.container1 {
+  border: solid 1px lightGray;
+  display: flex;
+}
+
+.un1 {
+  background-color: orangeRed;
+  flex-grow: 1;
+}
+
+.container2 {
+  border: solid 1px lightGray;
+  display: flex;
+  width: 60%;
+}
+
+/*Exercie 2*/
+
+.un2 {
+  background-color: LightSkyBlue;
+  flex-grow: 100;
+}
+
+.deux1 {
+  background-color: LightSlateGray;
+  flex-grow: 100;
+}
+
+.trois1 {
+  background-color: LightSteelBlue;
+  flex-grow: 100;
+}
+
+/**/
+
+.un3 {
+  background-color: LightSkyBlue;
+  flex-grow: 2;
+}
+
+.deux2 {
+  background-color: LightSlateGray;
+  flex-grow: 1;
+}
+
+.trois2 {
+  background-color: LightSteelBlue;
+  flex-grow: 1;
+}
+
+/**/
+
+.un4 {
+  background-color: LightSkyBlue;
+  flex-grow: 20;
+}
+
+/**/
+
+.un5 {
+  background-color: LightSkyBlue;
+  flex-grow: 1;
+}
+
+.deux3 {
+  background-color: LightSlateGray;
+  flex-grow: 2;
+}
+
+.trois3 {
+  background-color: LightSteelBlue;
+  flex-grow: 3;
+}
