@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-gap: 2px;
+}
+
+.item {
+  background-color: LightSteelBlue;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.container1 {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.item1 {
+  background-color: LightSteelBlue;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
