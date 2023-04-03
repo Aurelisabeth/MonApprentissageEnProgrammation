@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Opérateurs logiques.</title>
+  </head>
+  <body>
+
+    <h1><U>1. L'opérateur "AND".</U></h1>
+
+    <h3>L'opérateur <em>AND "&&"</em> .</h3>
+    <script type="text/javascript">
+      let estChargé = true;
+      let estAllumé = true;
+      console.log(estChargé && estChargé); <!--true-->
+    </script>
+
+    <br><hr><br>
+
+    <h1><U>2. Les opérateurs OR et NOT.</U></h1>
+
+    <h3>L'opérateur <em>OR "||"</em> .</h3>
+    <script type="text/javascript">
+      let estChargé = true;
+      let estAllumé = false;
+      console.log(estChargé || estChargé); <!--true-->
+    </script>
+
+    <script type="text/javascript">
+      let estChargé = false;
+      let estAllumé = false;
+      console.log(estChargé || estChargé); <!--false-->
+    </script>
+
+    <br><hr><br>
+
+    <h3>L'opérateur <em>NOT "!"</em> .</h3>
+    <script type="text/javascript">
+      let estAlimenté = true;
+      console.log(!estAlimenté); <!--true-->
+    </script>
+
+
+    <script type="text/javascript">
+      let estAlimenté = true;
+      let estAllumé = false;
+      console.log(!(estAlimenté && estAllumé)); <!--false-->
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      let estAlimenté = true;
+      let estAllumé = false;
+      console.log(estAlimenté && estAllumé); <!--false-->
+      console.log(!(estAlimenté && estAllumé)); <!--true-->
+    </script>
+
+  </body>
+</html>
