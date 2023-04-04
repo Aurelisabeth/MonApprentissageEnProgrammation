@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Incorporer Else et If.</title>
+  </head>
+  <body>
+    <h3>Les étapes de la journée pour : le matin</h3>
+    <script type="text/javascript">
+      let heure = 9;
+      if (heure < 12) {
+        console.log("Le matin");
+      } else {
+        console.log("La nuit");
+      }
+    </script>
+
+    <br><hr><br>
+
+    <h3>Les étapes de la journée pour : l'après-midi</h3>
+    <script type="text/javascript">
+      let heure = 14;
+      if (heure < 12) {
+        console.log("Le matin");
+      } else if (heure < 17){
+        console.log("L'après-midi");
+      }
+    </script>
+
+    <br><hr><br>
+
+    <h3>Les étapes de la journée pour : le soir</h3>
+    <script type="text/javascript">
+      let heure = 18;
+      if (heure < 12) {
+        console.log("Le matin");
+      } else if (heure < 17){
+        console.log("L'après-midi");
+      } else {
+        console.log ("le soir")
+      }
+    </script>
+
+    <br><hr><br>
+
+    <h3>Les étapes de la journée pour : la nuit</h3>
+    <script type="text/javascript">
+      let heure = 20;
+      if (heure < 12) {
+        console.log("Le matin");
+      } else if (heure < 17){
+        console.log("L'après-midi");
+      } else if (heure < 21){
+        console.log("Le soir");
+      } else {
+        console.log ("le nuit")
+      }
+    </script>
+
+  </body>
+</html>
