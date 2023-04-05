@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Variables auto-attribuée.(Ajout et retrait)</title>
+  </head>
+  <body>
+    <h3>La variable <em>attribuée</em> .</h3>
+    <script type="text/javascript">
+      const portefeuille = 3;
+      console.log(portefeuille);
+    </script>
+
+    <br><hr><br>
+
+    <h3>La variable <em>auto-attribuée</em> .</h3>
+    <script type="text/javascript">
+      let portefeuille = 3;
+      portefeuille = portefeuille;
+      console.log(portefeuille);
+    </script>
+
+    <br><hr><br>
+
+    <h3>La variable <em>auto-attribuée</em> + 1 .</h3>
+    <script type="text/javascript">
+      let portefeuille = 3;
+      portefeuille = portefeuille + 1;
+      console.log(portefeuille);
+    </script>
+
+    <br><hr><br>
+
+    <h3>La variable <em>auto-attribuée</em> + 2 et -1 .</h3>
+    <script type="text/javascript">
+      let portefeuille = 3;
+      portefeuille = portefeuille + 1;
+      portefeuille = portefeuille - 1;
+      console.log(portefeuille);
+    </script>
+
+    <br><hr><br>
+
+    <h3>La variable <em>auto-attribuée</em> avec des "strings" .</h3>
+    <script type="text/javascript">
+      let ficheInfo = "Nom d'utilisateur";
+      ficheInfo = ficheInfo + "Ella";
+      ficheInfo = ficheInfo + "Mai";
+      console.log(ficheInfo);
+    </script>
+
+  </body>
+</html>
