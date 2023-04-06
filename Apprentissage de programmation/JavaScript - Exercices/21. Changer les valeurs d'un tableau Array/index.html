@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Changer les valeurs d'un array.</title>
+  </head>
+  <body>
+    <h2>Chaque élément d’un tableau a une position numérotée appelée <U>"index" (indice)</U>.</h2>
+    <h3>Liste de nombre (températures) : sans "strings".</h3>
+    <script type="text/javascript">
+      const temperature = [17, 20, 26, 24];
+    </script>
+
+    <br><hr><br>
+
+    <h3>Choisir une température.</h3>
+    <p>Les indices commencent à 0 et augmentent avec chaque valeur supplémentaire. Cela signifie que le deuxième élément des températures est à l’indice 1. </p>
+    <script type="text/javascript">
+      const temperature = [17, 20, 26, 24];
+      console.log(temperature[1]); <!--20-->
+    </script>
+
+    <script type="text/javascript">
+      const temperature = [17, 20, 26, 24];
+      console.log(temperature[3]); <!--24-->
+    </script>
+
+    <h3>Ajouter une température.</h3>
+    <script type="text/javascript">
+    const temperature = [17, 20, 26, 24];
+    temperatures[2] = 25;
+    console.log(temperature); <!--[17, 20, 25, 24]-->
+    </script>
+  </body>
+</html>
