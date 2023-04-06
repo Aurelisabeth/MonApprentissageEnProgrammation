@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Les méthodes d'array</title>
+  </head>
+  <body>
+    <h3>Créer une liste de tâche à faire an ajoutant un élément</h3>
+    <script type="text/javascript">
+      const todo = ["appeler mamie", "faire la vaisselle"];
+      todo.push("faire les courses");
+      console.log(todo);
+    </script>
+
+    <br><hr><br>
+
+    <h3>Créer une liste de tâche à faire an ajoutant plusieurs éléments</h3>
+    <script type="text/javascript">
+      const todo = ["appeler mamie", "faire la vaisselle"];
+      todo.push("faire les courses", "aller chez la coiffeuse");
+      console.log(todo);
+    </script>
+
+    <br><hr><br>
+
+    <h3>Créer une liste de tâche à faire an retirant un élément</h3>
+    <script type="text/javascript">
+      const todo = ["appeler mamie", "faire la vaisselle", "faire les courses", "aller chez la coiffeuse"];
+      todo.pop("aller chez la coiffeuse");
+      console.log(todo);
+    </script>
+
+    <br><hr><br>
+
+    <h3>Requête du dernier élément supprimé</h3>
+    <p>Lorsque nous affectons toDo.pop() à une variable, la variable stocke la valeur que nous supprimons.</p>
+    <script type="text/javascript">
+      const todo = ["appeler mamie", "faire la vaisselle", "faire les courses"];
+      let chore = todo.pop();
+      console.log(chore); <!--aller chez la coiffeuse-->
+    </script>
+  </body>
+</html>
