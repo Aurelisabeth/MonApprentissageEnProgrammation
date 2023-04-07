@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Comprendre les fonctions</title>
+  </head>
+  <body>
+    <h1><U>1. Comprendre les fonctions</U></h1>
+    <script type="text/javascript">
+      function display(mot) {
+        console.log(mot);
+      }
+      display("Salut");
+      display("Au revoir");
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      function sommeTotal(prix, taxe) {
+        console.log(price + tax);
+      }
+      sommeTotal(1000, 250);
+    </script>
+
+    <br><hr><br>
+
+    <h3>Les valeurs non modifiables avec <em>get</em> </h3>
+    <!--Les fonctions qui renvoient principalement une valeur sans la modifier de quelque manière que ce soit commencent par des verbes comme "get".-->
+    <script type="text/javascript">
+      function getNom(nomEntier) {
+        return nomEntier[0];
+      }
+      const nomEntier = ["Don", "Juan"];
+      const prenom = getNom(fullName);
+    </script>
+
+    <br><hr><br>
+
+    <h3>Les booléens avec <em>is</em> </h3>
+    <!--En tant que cas particulier, les fonctions qui renvoient des valeurs booléennes commencent souvent par "is".-->
+    <script type="text/javascript">
+      function isFreezing(temperature) {
+        return temperature < 0;
+      }
+      const freezing = isFreezing(-3);
+      console.log(freezing);
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      function calculSomme(a, b) {
+        return a + b;
+      }
+
+      function calculDifference(a, b) {
+        return a - b;
+      }
+      const sum = lculSomme(30, 11);
+      const difference = calculDifference(30, 11);
+      console.log(somme);
+      console.log(difference);
+    </script>
+
+    <br><hr><br>
+
+    <h1><U>2. Comprendre les fonctions.</U></h1>
+
+    <!--Une fonction est comme une "boîte noire" car avec un grand nom, nous pouvons appeler une fonction sans lire le code défini à l'intérieur.-->
+    <script type="text/javascript">
+      const auteur = "J.D. Salinger";
+
+      displayAuteur(auteur);
+    </script>
+
+    <br><hr><br>
+
+    <!--Bien que nous n'ayons pas à nous souvenir du code de chaque fonction d'un programme, nous devons transmettre la bonne entrée pour obtenir la bonne sortie.-->
+    <script type="text/javascript">
+      const auteur = "John Steinbeck";
+      const titre = "Tortilla Flat";
+      const date = 1935;
+      displayAuteur(auteur);
+      displayTitre(titre);
+      displayAnnee(date);
+    </script>
+
+    <br><hr><br>
+
+    <h1><U>3. Comprendre les fonctions.</U></h1>
+
+    <script type="text/javascript">
+      function displayNoms(noms) {
+        console.log(noms);
+      }
+      const etudiants = ["Laurine", "Yannick"];
+      displayNoms(etudiants);
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      function displayNombreDeNoms(noms) {
+        console.log(noms.length);
+      }
+      const etudiants = ["Laurine", "Yannick"];
+      displayNombreDeNoms(etudiants);
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      function displayPremierNom(noms) {
+        console.log(noms[0]);
+      }
+      const etudiants = ["Laurine", "Yannick"];
+      displayPremierNom(etudiants);
+    </script>
+
+  </body>
+</html>
