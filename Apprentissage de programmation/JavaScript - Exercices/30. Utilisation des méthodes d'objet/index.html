@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Utilisation des méthodes d'objet</title>
+  </head>
+  <body>
+    <h1><U>1. Méthodes d'objet</U></h1>
+
+    <script type="text/javascript">
+      const chien = {
+        nom: "Rex"
+      };
+
+      function aboyer () {
+        console.log("woof woof");
+      }
+      aboyer();
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      const chien = {
+        function() {}
+      };
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      var chien = {
+        nom: "Rex",
+        aboyer: function(mot) {
+          return "woof woof, " + mot;
+        }
+      };
+      console.log(chien.aboyer("furieux"));
+    </script>
+
+    <h1><U>2. Utiliser des méthodes</U></h1>
+
+    <script type="text/javascript">
+      let mesCereales = {
+        nom: "Cheerios",
+        display: function() {
+          console.log("Cheerios");
+        }
+      };
+      mesCereales();
+    </script>
+
+    <br><hr><br>
+
+    <p>Le mot clé thisfait référence à l'objet qui contient la méthode. Dans ce cas, mesCereales.</p>
+    <script type="text/javascript">
+      const mesCereales = {
+        nom: "Cheerios",
+        display: function() {
+          console.log(this);
+        }
+      };
+      mesCereales.display();
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      const mesCereales = {
+        nom: "Cheerios",
+        display: function() {
+          console.log(this.nom);
+        }
+      };
+      mesCereales.display();
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      const mesCereales = {
+        nom: "Cheerios",
+        changeAndDisplay: function() {
+          this.nom = "Miel Pops"
+          console.log(this.nom);
+        }
+      };
+      mesCereales.changeAndDisplay();
+    </script>
+
+  </body>
+</html>
