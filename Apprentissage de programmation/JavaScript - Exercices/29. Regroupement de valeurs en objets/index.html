@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Chapitre : Regroupement de valeurs en objets</title>
+  </head>
+  <body>
+    <h1><U>1. Création d'objets</U></h1>
+    <script type="text/javascript">
+      const souris = {
+        nom = "Ratatouille";
+        platFavori = "La ratatouille";
+      }
+    </script>
+
+    <br><hr><br>
+
+    <h1><U>2. Propriétés de l'objet</U></h1>
+
+    <p>Pour ajouter plus de propriétés à un objet, commencez par une virgule, puis ajoutez la propriété.</p>
+    <script type="text/javascript">
+      const person = {
+        nom: "Joe Exotic",
+          surnom: "Tiger King"
+      };
+    </script>
+
+    <br><hr><br>
+
+    <p>Un objet peut avoir autant de propriétés que nous le souhaitons, tant que chaque propriété est séparée par une virgule.</p>
+    <script type="text/javascript">
+      const personne = {
+        nom: "Joe Exotic",
+        surnom: "Tiger King",
+        profession: "Gardien de zoo",
+        age: 57
+      };
+    </script>
+
+    <br><hr><br>
+
+    <script type="text/javascript">
+      const personne = {
+        nom: "Joe Exotic",
+        surnom: "Tiger King",
+        profession: "Gardien de zoo",
+        age: 57
+      };
+      console.log(personne);
+    </script>
+
+    ou
+
+    <script type="text/javascript">
+      const personne = {
+        nom: "Joe Exotic",
+        surnom: "Tiger King",
+        profession: "Gardien de zoo",
+        age: 57
+      };
+      console.log(personne.nickname);
+    </script>
+
+  </body>
+</html>
