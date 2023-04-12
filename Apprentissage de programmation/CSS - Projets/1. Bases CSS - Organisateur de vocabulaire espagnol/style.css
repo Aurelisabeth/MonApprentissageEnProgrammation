@@ -1,0 +1,16 @@
+body {
+  background-color: lightBlue;
+}
+
+h2 {
+  font-family: Arial;
+      }
+
+h3 {
+  font-family: Courier New;
+      }
+
+p {
+  font-style: italic;
+  background-color: cornSilk;
+}
