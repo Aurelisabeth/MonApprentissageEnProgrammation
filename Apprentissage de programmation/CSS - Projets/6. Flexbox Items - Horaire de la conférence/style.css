@@ -1,0 +1,23 @@
+#wrapper {
+  display: flex;
+}
+
+#times {
+  display: flex;
+  flex-basis: 100px;
+  flex-direction: column;
+}
+
+#times p {
+  flex: 0 1 100%;
+}
+
+#events {
+  display: flex;
+  flex-basis: 90%;
+  flex-direction: column;
+}
+
+#events p {
+  flex: 0 1 100%;
+}
