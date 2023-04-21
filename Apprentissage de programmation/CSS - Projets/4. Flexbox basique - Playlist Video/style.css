@@ -1,0 +1,59 @@
+body {
+  font-family: Garamond;
+  color: white;
+  background-color: black;
+}
+
+nav {
+  margin: 5px;
+  padding: 5px;
+}
+
+.accountNav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container {
+  display: flex;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.video {
+
+}
+
+.list {
+  flex-direction: column;
+}
+
+button {
+  background-color: red;
+  margin: 5px;
+  padding: 5px;
+  border: solid 1px white;
+  color: white;
+}
+
+.playlistImg {
+  width: 10%;
+  margin: 10px;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: row;
+}
+
+#selected {
+  background-color: gray;
+}
+
+.name {
+  font-weight: bold;
+  color: gray;
+}
